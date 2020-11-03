@@ -1,45 +1,47 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out some games that I've developed!</h1>
+   <AwesomeSlider>
+    <div data-src="images/gop.jpg" />
+    <div data-src="images/photo2.jpg" />
+    <div data-src="images/photo3.jpg" />
+  </AwesomeSlider>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/gop.jpg'
+              text='Gift of Parthax is a 2D top-down action-arena game GOP was a game that I was a part of developing during my time in Foldergeist Studios'
+              label='Indie/Adventure/action game'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/photo2.jpg'
+              text='Insert text'
+              label='None'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/photo3.jpg'
+              text='Insert text'
+              label='None'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/photo4.jpg'
+              text='Insert text'
+              label='None'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/photo5.jpg'
+              text='Insert text'
+              label='None'
             />
           </ul>
         </div>
