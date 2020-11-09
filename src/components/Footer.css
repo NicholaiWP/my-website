@@ -7,34 +7,35 @@
   align-items: center;
 }
 
-.footer-subscription {
+.footer-email {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
+  width: 100%;
   margin-bottom: 24px;
   padding: 24px;
   color: #fff;
 }
 
-.footer-subscription > p {
+.footer-email > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
-.footer-subscription-heading {
+.footer-email-heading {
   margin-bottom: 24px;
   font-size: 24px;
 }
 
-.footer-subscription-text {
+.footer-email-text {
   margin-bottom: 24px;
   font-size: 20px;
 }
 
 .footer-input {
+  width: 100%;
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
@@ -84,29 +85,6 @@
   color: #b1b1b1;
 }
 
-/* Social Icons */
-.social-icon-link {
-  color: #fff;
-  font-size: 24px;
-}
-
-.social-media {
-  max-width: 1000px;
-  width: 100%;
-}
-
-.social-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
 .website-rights {
   color: #fff;
   margin-bottom: 16px;
@@ -128,7 +106,6 @@
   .btn {
     width: 100%;
   }
-
 
 }
 

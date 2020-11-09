@@ -8,11 +8,6 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Check out some games that I've developed!</h1>
-   <AwesomeSlider>
-    <div data-src="images/gop.jpg" />
-    <div data-src="images/photo2.jpg" />
-    <div data-src="images/photo3.jpg" />
-  </AwesomeSlider>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -35,11 +30,6 @@ function Cards() {
             />
             <CardItem
               src='images/photo4.jpg'
-              text='Insert text'
-              label='None'
-            />
-            <CardItem
-              src='images/photo5.jpg'
               text='Insert text'
               label='None'
             />

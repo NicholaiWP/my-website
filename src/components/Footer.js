@@ -2,19 +2,18 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import Simpletextarea from './Simpletextarea';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+      <section className='footer-email'>
+        <p className='footer-email-heading'>
+          Get in contact with me
         </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        <p className='footer-email-text'>
+          Write me a message
         </p>
-        <div className='input-areas'>
+        <div>
           <form>
             <input
               className='footer-input'
@@ -22,11 +21,17 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
+              <input
+              className='footer-input'
+              name='email'
+              type='textarea'
+              placeholder='Message'
+            />
             <Button buttonStyle='btn--outline'>Submit</Button>
           </form>
         </div>
       </section>
-      <small class='website-rights'>TRVL © 2020</small>
+      <small class='website-rights'>Nicholai W.P. © 2020</small>
     </div>
   );
 }
