@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -27,7 +25,8 @@ function Footer() {
               type='textarea'
               placeholder='Message'
             />
-            <Button buttonStyle='btn--outline'>Submit</Button>
+             <input className='' type="submit" value="Submit"></input>
+            <p id='contact-information'></p>
           </form>
         </div>
       </section>

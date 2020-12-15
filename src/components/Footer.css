@@ -1,3 +1,7 @@
+:root {
+  --primary: #fff;
+}
+
 .footer-container {
   background-color: #242424;
   padding: 4rem 0 2rem 0;
@@ -32,6 +36,14 @@
 .footer-email-text {
   margin-bottom: 24px;
   font-size: 20px;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
 }
 
 .footer-input {
