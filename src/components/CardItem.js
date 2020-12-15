@@ -10,6 +10,7 @@ function CardItem(props) {
             <img
               className='cards__item__img'
               src={props.src}
+              alt={props.alt}
             />
           </figure>
           <div className='cards__item__info'>
